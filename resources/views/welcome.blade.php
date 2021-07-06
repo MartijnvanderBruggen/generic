@@ -32,6 +32,7 @@
               @endif
           </div>
         </div>
+          <div> Welcome </div>
           <div id="slider-area" class="owl-carousel owl-theme">
             @foreach ($images as $image)
             <div class="item" style="background-size:cover;background-position:50% 50%;height:100vh;width:100%;background-image: url({{ asset('images/'.$image->getFileName())}})"></div>
